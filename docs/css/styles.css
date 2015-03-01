@@ -1,0 +1,394 @@
+/*!
+ * TrippoApp v1.0
+ * Copyright 2012 Trippo, Inc
+ * Licensed under CC BY 3.0
+ * http://creativecommons.org/licenses/by/3.0/
+ *
+ */
+
+ 
+ 
+ /***** STRUCTURE *****/
+ 
+ body { 
+	background-color: #fafafa;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: white 0.02em 0.02em;
+	font-family: 'QlassikBold', sans-serif;
+	}
+	
+h2 {
+	font-size: 2.3em;
+}
+ 
+ .content {
+	padding-top:100px;
+	font-size: 1.1em;
+	line-height: 1.8em;
+	}
+	
+.content p {
+	font-size: 1.0em;
+	line-height: 1.8em;
+	margin-bottom: 1.1em;
+	}
+	
+
+/***** BODY *****/
+	
+.page-title {
+	padding: 100px 0 30px 0;
+	}
+	
+.arrow-top img {
+	margin: -7px 0 0 15px;
+	}
+
+
+	
+/***** NAVIGATION BAR *****/
+
+.navbar .brand {
+	font-weight: bold;
+	color: black;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
+}
+
+
+
+/***** HOMEPAGE *****/
+	
+#details {
+	position: relative;
+	float: right;
+	width: 527px;
+	margin-top: 80px;
+	padding-left: 20px;
+}
+
+#icon {
+	position: relative;
+	float: left;
+	margin-right: 20px;
+}
+
+#app-name {
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#app-name h1 {
+	font-size: 4.5em;
+	color: #FF8000;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, #000 0.02em 0.02em;
+	}
+	
+#version {
+	top: 30px;
+	position: relative;
+	float: left;
+}
+
+#tagline {
+	font-size: 1.4em;
+	margin-top: 6em;
+	clear: both;
+}
+
+#description {
+	margin-top: 2em;
+	margin-bottom: 1.8em;
+}
+
+#features li {
+	background: url('../img/check.png') no-repeat left;
+	list-style: none;
+	padding-left: 25px;
+	margin-left: -23px;
+	line-height: 1.7em;
+}
+
+.download-box {
+	width: 45%;
+	float: left;
+	padding-top: 20px;
+	padding-right: 5%;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	}
+	
+.email {
+    color: #FF0000;
+}
+
+.demo-button {
+    width: 175px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #000;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 11px 0px;
+    border-radius: 17px;
+    color: #000;
+    margin-top: 60px;
+}
+	
+/***** ABOUT PAGE *****/
+
+.updates ul {
+	list-style: none;
+	padding-top: 10px;
+	clear: both;
+	margin: 0 0 25px 0;
+	}
+	
+.updates ul li {
+	margin-bottom: 10px;
+	}
+	
+.updates hr {
+	border-top: 1px solid #CCC;
+	}
+	
+.updates .label {
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+.version {
+	float:left;
+	}
+
+.release-date {
+	float:right;
+	margin-top: 4px;
+	color: #999;
+	font-size: 0.85em;
+	}
+	
+.new {
+  background-color: #3a87ad;
+}
+
+.fix {
+	background-color: #468847;
+	padding: 1px 8px 2px;
+	}
+	
+
+	
+/***** CONTACT *****/
+
+#contact-form {
+	border-left: 1px solid #cccccc;
+	}
+	
+#contact-info {
+	padding-bottom:20px;
+	}
+	
+	
+	
+/***** FOOTER *****/
+
+.footer {
+	font-size: 0.85em;
+	line-height: 1.5em;
+	padding: 15px 0;
+	border-top: 1px solid #CCC;
+}
+
+#copyright {
+	float:left;
+	}
+	
+#credits {
+	float:right;
+	}
+	
+	
+/***** PRICING TABLE *****/
+
+#plans,#plans ul,#plans ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#pricePlans:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#pricePlans {
+	zoom: 1;
+}
+
+#pricePlans {
+	max-width: 69em;
+	margin: 0 auto;
+}
+
+#pricePlans #plans .plan {
+	background: #fff;
+	float: left;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0 0 20px 0;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.planContainer .title h2 {
+	font-size: 2.125em;
+	font-weight: 300;
+	color: #3e4f6a;
+	margin: 0;
+	padding: .6em 0;
+}
+
+.planContainer .title h2.bestPlanTitle {
+	background: #3e4f6a;
+	background: -webkit-linear-gradient(top, #475975, #364761);
+	background: -moz-linear-gradient(top, #475975, #364761);
+	background: -o-linear-gradient(top, #475975, #364761);
+	background: -ms-linear-gradient(top, #475975, #364761);
+	background: linear-gradient(top, #475975, #364761);
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+}
+
+
+.planContainer .price p {
+	background: #2c2c2c;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	height: 2.6em;
+	line-height: 2.6em;
+	margin: 0 0 1em;
+}
+
+.planContainer .price p.bestPlanPrice {
+	background: #f7814d;
+}
+
+.planContainer .price p span {
+	color: #8394ae;
+}
+
+.planContainer .options {
+	margin-top: 10em;
+}
+
+.planContainer .options li {
+	font-weight: 700;
+	color: #364762;
+	line-height: 2.5;
+}
+
+.planContainer .options li span {
+	font-weight: 400;
+	color: #979797;
+}
+
+.planContainer .button a {
+	margin: 1.5em 0 1.8em;
+}
+
+.planContainer .button a.bestPlanButton {
+	color: #fff;
+	background: #f7814d;
+	border: 2px solid #f7814d;
+}
+
+#credits {
+	text-align: center;
+	font-size: .8em;
+	font-style: italic;
+	color: #777;
+}
+
+#credits a {
+	color: #333;
+}
+
+#credits a:hover {
+	text-decoration: none;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+#pricePlans #plans .plan {
+	width: 49%;
+	margin: 0 2% 20px 0;
+}
+
+#pricePlans #plans > li:nth-child(2n) {
+	margin-right: 0;
+}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+#pricePlans #plans .plan {
+	width: 49%;
+	margin: 0 2% 20px 0;
+}
+
+#pricePlans #plans > li:nth-child(2n) {
+	margin-right: 0;
+}
+
+}
+
+@media screen and (min-width: 1025px) {
+
+#pricePlans {
+	margin: 2em auto;
+}
+
+#pricePlans #plans .plan {
+	width: 33%;
+	margin: 0 1.33% 20px 0;
+
+	-webkit-transition: all .25s;
+	   -moz-transition: all .25s;
+	    -ms-transition: all .25s;
+	     -o-transition: all .25s;
+	        transition: all .25s;
+}
+
+#pricePlans #plans > li:last-child {
+	margin-right: 0;
+}
+
+.planContainer .button a {
+	-webkit-transition: all .25s;
+	   -moz-transition: all .25s;
+	    -ms-transition: all .25s;
+	     -o-transition: all .25s;
+	        transition: all .25s;
+}
+
+.planContainer .button a:hover {
+	background: #3e4f6a;
+	color: #fff;
+}
+
+.planContainer .button a.bestPlanButton:hover {
+	background: #ff9c70;
+	border: 2px solid #ff9c70;
+}
+
+}

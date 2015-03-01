@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Order Some Food - A Just-Eat / Hungry House clone</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Order Some Food is a Just Eat clone. A fully featured web application that provides online ordering for takeaways and restaurants. Written in PHP and easy to modify." />
+<meta name="keywords" content="just-eat, just, eat, clone, hungry, house, fill, belly, online, ordering, application, takeaway, restaurant, order, some, food, order-some-food, copy, replica, mimic, features, search, cheap, php, object-oriented, api, android, app" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<link href="font/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/media-queries.css" rel="stylesheet" type="text/css">
+<link href="fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" media="screen">
+<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="http://fonts.googleapis.com/css?family=Exo:400,800" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="js/css3-mediaqueries.js"></script>
+<script src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body data-spy="scroll">
+<!-- TOP MENU NAVIGATION -->
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+      <div class="nav-collapse collapse">
+        <ul id="nav-list" class="nav pull-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#demo">Demo</a></li>
+          <li><a href="#screenshots">Screenshots</a></li>
+          <li><a href="#installation">Installation</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MAIN CONTENT -->
+<div class="container content container-fluid" id="home">
+  <!-- HOME -->
+  <div class="row-fluid">
+    <!-- PHONES IMAGE FOR DESKTOP MEDIA QUERY -->
+    <div class="span5 visible-desktop"> <img src="img/monitor-order-some-food.png" alt=""> </div>
+    <!-- APP DETAILS -->
+    <div class="span7">
+      <!-- ICON -->
+      <!--<div class="visible-desktop" id="icon"> <img src="img/app_icon.png" alt=""> </div>-->
+      <!-- APP NAME -->
+      <div id="app-name">
+        <h1>Order Some Food</h1>
+      </div>
+      <!-- VERSION -->
+      <div id="version"> <span class="version-top label label-inverse">Version 2.9</span> </div>
+      <!-- TAGLINE -->
+      <div id="tagline"> A full ready to use website that mimics many of the features of popular takeaway ordering websites, such as Just-Eat. </div>
+      <!-- PHONES IMAGE FOR TABLET MEDIA QUERY -->
+      <div class="hidden-desktop" id="phones"> <img src="img/monitor-order-some-food-small.png" alt=""> </div>
+      <!-- DESCRIPTION -->
+      <div id="description"> This web application will provide you with a ready to use website where takeaway owners will be able to register their establishment, add their menu and start receiving orders online. If you are looking for a script, web application or even a full ready to use website that allows online takeaway ordering then look no further! </div>
+      <!-- FEATURES -->
+      <ul id="features">
+        <li>User friendly interface</li>
+        <li>Search for takeaways in local area</li>
+        <li>Receive orders online</li>
+        <li>Support for multiple languages</li>
+        <li>Support for multiple currencies</li>
+        <li>Accept online payments</li>
+        <li>Easy to customise</li>
+        <li>Full source code available</li>
+      </ul>
+      <!-- DOWNLOAD & REQUIREMENT BOX -->
+      <div class="download-box"><a href="https://github.com/paul-blundell/Order-Some-Food/" class="sellfy-buy-button">View on GitHub</a></div>
+      <div class="download-box"> <strong>Requirements:</strong><br>
+        PHP 5.3+, Apache, MySQL.</div>
+    </div>
+  </div>
+  <!-- ABOUT & UPDATES -->
+  <div class="row-fluid" id="about">
+    <div class="span6">
+      <h2 class="page-title" id="scroll_up"> About <a href="#home" class="arrow-top"> <img src="img/arrow-top.png" alt=""> </a> </h2>
+      <p>The Order Some Food web application built using PHP and CodeIgniter will provide you with extensive online takeaway ordering business. This will allow owners of takeaway establishments to register their details and begin selling online.</p>
+      <p>Designed to be as easy to use as possible and even easier to modify is what makes Order Some Food the perfect application for your needs, whether that is establishing a website similar to Just-Eat or Hungry House or perhaps you are business with a chain of restuarants.</p>
+      <p>Order Some Food can be used for a wide variety of requirements, take a look at our demo now to see if our online ordering application is for you.</p>
+    </div>
+    <div class="span6 updates" id="updates">
+      <h2 class="page-title" id="scroll_up"> Updates <a href="#home" class="arrow-top"> <img src="img/arrow-top.png" alt=""> </a> </h2>
+      <!-- UPDATES & RELEASE NOTES -->
+      <h3 class="version">Version 2.9</h3>
+      <span class="release-date">Released on March 1st, 2015</span>
+      <ul>
+        <li><span class="label new">NEW</span>Easily change currency</li>
+        <li><span class="label new">NEW</span>Improved menu interface</li>
+        <li><span class="label fix">FIX</span>Latitude/Longitude lookup restrictions</li>
+      </ul>
+      <hr>
+      <h3 class="version">Version 2.8</h3>
+      <span class="release-date">Released on October 28th, 2014</span>
+      <ul>
+        <li><span class="label new">NEW</span>Accept payments with PayPal</li>
+        <li><span class="label fix">FIX</span>Fixed empty menu issue</li>
+      </ul>
+      <hr>
+      <h3 class="version">Version 1.0</h3>
+      <span class="release-date">Released on June 10th, 2012</span>
+      <ul>
+        <li><span class="label label-info">NEW</span>Initial Release</li>
+      </ul>
+    </div>
+  </div>
+  <!-- DEMO -->
+  <div class="row-fluid" id="demo">
+    <h2 class="page-title" id="scroll_up"> Demo <a href="#home" class="arrow-top"> <img src="img/arrow-top.png" alt=""> </a> </h2>
+    <p>The best way to know if Order Some Food is for you is to install and demo it.</p>
+    <p>The Main administration account is:<br/>
+    Email: test@test.test<br/>
+    Password: test</p>
+    <p>A takeaway account is:<br/>
+    Email: test4@test.test<br/>
+    Password: test
+    </p>
+    <p>Other accounts are: <br/>
+    testX@test.test with password test, where X is a number 1 to 6.</p>
+  </div>
+  <!-- SCREENSHOTS -->
+  <div class="row-fluid" id="screenshots">
+    <h2 class="page-title" id="scroll_up"> Screenshots <a href="#home" class="arrow-top"> <img src="img/arrow-top.png" alt=""> </a> </h2>
+    <!-- SCREENSHOT IMAGES ROW 1-->
+    <ul class="thumbnails">
+      <li class="span3"> <a href="img/screens/1.jpg" rel="gallery" class="thumbnail"> <img src="img/screens/1.jpg" alt=""> </a> </li>
+      <li class="span3"> <a href="img/screens/2.jpg" rel="gallery" class="thumbnail"> <img src="img/screens/2.jpg" alt=""> </a> </li>
+      <li class="span3"> <a href="img/screens/4.jpg" rel="gallery" class="thumbnail"> <img src="img/screens/4.jpg" alt=""> </a> </li>
+      <li class="span3"> <a href="img/screens/5.jpg" rel="gallery" class="thumbnail"> <img src="img/screens/5.jpg" alt=""> </a> </li>
+    </ul>
+    <!-- SCREENSHOT IMAGES ROW 2-->
+    <ul class="thumbnails">
+      <li class="span3"> <a href="img/screens/6.jpg" rel="gallery" class="thumbnail"> <img src="img/screens/6.jpg" alt=""> </a> </li>
+      <li class="span3"> <a href="img/screens/7.jpg" rel="gallery" class="thumbnail"> <img src="img/screens/7.jpg" alt=""> </a> </li>
+      <li class="span3"> <a href="img/screens/8.jpg" rel="gallery" class="thumbnail"> <img src="img/screens/8.jpg" alt=""> </a> </li>
+      <li class="span3"> <a href="img/screens/9.jpg" rel="gallery" class="thumbnail"> <img src="img/screens/9.jpg" alt=""> </a> </li>
+    </ul>
+     <!-- SCREENSHOT IMAGES ROW 3-->
+    <ul class="thumbnails">
+      <li class="span3"> <a href="img/screens/10.jpg" rel="gallery" class="thumbnail"> <img src="img/screens/10.jpg" alt=""> </a> </li>
+      <li class="span3"> <a href="img/screens/11.jpg" rel="gallery" class="thumbnail"> <img src="img/screens/11.jpg" alt=""> </a> </li>
+      <li class="span3"> <a href="img/screens/12.jpg" rel="gallery" class="thumbnail"> <img src="img/screens/12.jpg" alt=""> </a> </li>
+    </ul>
+  </div>
+  <!-- INSTALLATION -->
+  <div class="row-fluid" id="installation">
+    <h2 class="page-title" id="scroll_up"> Installation <a href="#home" class="arrow-top"> <img src="img/arrow-top.png" alt=""> </a> </h2>
+    <p>Installation of Order Some Food could not be any easier. Simply extract the zip file into your websites directory, import the provided .sql file into your database
+        and then modify a couple of settings in a configuration file. You're done!</p>
+    <p>These instructions are provided in more detail in a readme file inside the applications package.</p>
+  </div>
+  <!-- CONTACT -->
+  <div class="row-fluid" id="contact">
+    <h2 class="page-title" id="scroll_up"> Contact <a href="#home" class="arrow-top"> <img src="img/arrow-top.png" alt=""> </a> </h2>
+    <p>Order Some Food was developed by Paul Blundell as part of a university project back in 2011. This application was designed to be used as a starting point for those wishing to develop a similar website.</p>
+    <p>Should you need to contact me then please email <span class="email">paul@blundell.xyz</span>.</p>
+  </div>
+</div>
+<!-- FOOTER -->
+<div class="footer container container-fluid">
+  <div id="copyright">&copy; Copyright 2017 <a href="http://paul.blundell.xyz">Paul Blundell</a>. All Rights Reserved</div>
+  <!-- CREDIT - PLEASE LEAVE THIS LINK! -->
+  <div id="credits">Website Template by <a target="_blank" href="http://www.trippoinc.com">Trippo</a></div>
+</div>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-collapse.js"></script>
+<script src="js/bootstrap-scrollspy.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="js/init.js"></script>
+</body>
+</html>
