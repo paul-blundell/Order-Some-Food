@@ -1,0 +1,40 @@
+<?php
+
+$lang['closest'] = "Agosaf i Chi";
+$lang['alpha'] = "yn nhrefn yr wyddor";
+$lang['popular'] = "mwyaf Poblogaidd";
+$lang['sort'] = "Trefnu yn ôl";
+
+$lang['takeawayregistertext'] = "Llenwch y ffurflen isod i gofrestru eich sefydliad";
+$lang['businessname'] = "Enw'r Busnes";
+$lang['address1'] = "Cyfeiriad Llinell 1";
+$lang['address2'] = "Cyfeiriad Llinell 2";
+$lang['town'] = "Tref / Dinas";
+$lang['postcode'] = "Côd Post";
+$lang['phone'] = "ffôn";
+$lang['shortnametext'] = "Rhowch enw unigryw ar gyfer eich sefydliad, bydd hyn yn enw byr yn cael eiddefnyddio i greu URL uniongyrchol unigryw i eich bwydlen. Dylai hyn fod yn<strong> llythrennau bach </ strong> ac yn cynnwys unrhyw fannau <strong> </ strong>";
+$lang['shortname'] = "Enw byr";
+$lang['shortnametaken'] = "Eich dewis enw byr eisoes wedi cael ei gymryd. Rhowch gynnig arall.";
+$lang['description'] = "Disgrifiwch pa wasanaethau yr ydych yn cynnig: (Max 100 Cymeriadau)";
+$lang['deliverycharge'] = "Tâl Cyflawni";
+$lang['deliverytime'] = "Amser cyflenwi";
+$lang['category'] = "dewis Categori";
+$lang['useraccount'] = "Bydd y sefydliad yn cael ei gofrestru ar y cyfrif defnyddiwr canlynol";
+$lang['registertext'] = "Rhowch eich cyfeiriad e-bost a chreu cyfrinair, bydd hyn yn eich manylion mewngofnodi i olrhain eich archebion";
+$lang['emailaddress'] = "cyfeiriad e-bost";
+$lang['password'] = "cyfrinair";
+$lang['confpassword'] = "cadarnhau Cyfrinair";
+$lang['alreadyregistered'] = "Cofrestredig yn barod?";
+$lang['notamember'] = "Ddim eto yn aelod?";
+$lang['submit'] = "cyflwyno Cais";
+$lang['thankyou'] = "Diolch yn fawr";
+$lang['success'] = "Mae eich busnes wedi cael ei gofrestru a bydd yn cael ei adolygu cyn bo hir.";
+$lang['reqbusiness'] = "Enw busnes yn faes Angenrheidiol.";
+$lang['reqaddress1'] = "Cyfeiriad Llinell 1 yn faes Angenrheidiol.";
+$lang['reqtown'] = "Tref / Dinas yn faes Angenrheidiol.";
+$lang['reqpostcode'] = "Cod Post yn faes Angenrheidiol.";
+$lang['reqshortname'] = "Enw byr yn faes Angenrheidiol.";
+$lang['nopasswordmatch'] = "Naill ai nid yw eich cyfrineiriau yn cyd-fynd neu'r cyfeiriad e-bost wedi ei gofrestru eisoes.";
+$lang['loginincorrect'] = "Eich manylion mewngofnodi yn anghywir.";
+$lang['notavailable'] = "Heb fod ar gael";
+$lang['available'] = "Ar gael";

@@ -1,0 +1,1 @@
+<p>This takeaway is closed and so you are currently unable to place an order.</p>

@@ -1,0 +1,40 @@
+<?php
+
+$lang['closest'] = "Closest to You";
+$lang['alpha'] = "Alphabetically";
+$lang['popular'] = "Most Popular";
+$lang['sort'] = "Sort by";
+
+$lang['takeawayregistertext'] = "Please fill in the form below to register your establishment";
+$lang['businessname'] = "Business Name";
+$lang['address1'] = "Address Line 1";
+$lang['address2'] = "Address Line 2";
+$lang['town'] = "Town/City";
+$lang['postcode'] = "Postcode";
+$lang['phone'] = "Telephone";
+$lang['shortnametext'] = "Please enter a unique name for your establishment, this short name will be used to create a unique direct URL to your menu. This should be <strong>lowercase</strong> and contain <strong>no spaces</strong>";
+$lang['shortname'] = "Short Name";
+$lang['shortnametaken'] = "Your chosen short name has already been taken. Please try another.";
+$lang['description'] = "Please describe what services you offer: (Max 100 Characters)";
+$lang['deliverycharge'] = "Delivery Charge";
+$lang['deliverytime'] = "Delivery Time";
+$lang['category'] = "Select Category";
+$lang['useraccount'] = "This establishment shall be registered to the following user account";
+$lang['registertext'] = "Please enter your email address and create a password, this will be your login details to track your orders";
+$lang['emailaddress'] = "Email address";
+$lang['password'] = "Password";
+$lang['confpassword'] = "Confirm Password";
+$lang['alreadyregistered'] = "Already Registered?";
+$lang['notamember'] = "Not yet a member?";
+$lang['submit'] = "Submit Application";
+$lang['thankyou'] = "Thank you";
+$lang['success'] = "Your business has now been registered and will be reviewed shortly.";
+$lang['reqbusiness'] = "Business name is a requried field.";
+$lang['reqaddress1'] = "Address Line 1 is a requried field.";
+$lang['reqtown'] = "Town/City is a requried field.";
+$lang['reqpostcode'] = "Postcode is a requried field.";
+$lang['reqshortname'] = "Short name is a requried field.";
+$lang['nopasswordmatch'] = "Either your passwords do not match or the email address is already registered.";
+$lang['loginincorrect'] = "Your login details were incorrect.";
+$lang['notavailable'] = "Not Available";
+$lang['available'] = "Available";
